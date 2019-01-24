@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: ubuntu-16.04
+pool: Default
 
 steps:
 - script: node --version
