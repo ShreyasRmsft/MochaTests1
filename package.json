@@ -1,0 +1,17 @@
+{
+  "name": "mochatests1",
+  "version": "1.0.0",
+  "description": "sample set of mocha tests",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShreyasRmsft/MochaTests1"
+  },
+  "author": "ShreyasRMsft",
+  "license": "MIT"
+}
