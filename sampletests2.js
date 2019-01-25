@@ -24,15 +24,15 @@ describe('testsuite2', function () {
         done("hello across \n multiple lines \n here");
     });
 
-    it('Test method 3', function (done) {
+    it('Test method 4', function (done) {
         throw("error");
     });
 
-    it('Test method 4', function (done) {
+    it('Test method 5', function (done) {
         done();
     });
 
-    it('Test method 5', function (done) {
+    it('Test method 6', function (done) {
         throw("some error");
     });
 
