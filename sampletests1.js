@@ -24,15 +24,15 @@ describe('testsuite1', function () {
         this.skip();
     });
 
-    it('Test method 3', function (done) {
+    it('Test method 4', function (done) {
         this.skip();
     });
 
-    it('Test method 4', function (done) {
+    it('Test method 5', function (done) {
         done("some stack trace");
     });
 
-    it('Test method 5', function (done) {
+    it('Test method 6', function (done) {
         throw("some other error");
     });
 
