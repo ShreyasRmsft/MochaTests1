@@ -8,9 +8,7 @@ trigger:
 
 pool: Shreyas
 
-variables:
-  - name: agent.disablelogplugin.TestResultLogPlugin
-  - value: 'false'
+variables: { agent.disablelogplugin.TestResultLogPlugin: 'false' }
 
 steps:
 - script: npm install
