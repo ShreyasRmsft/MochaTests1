@@ -8,7 +8,7 @@ trigger:
 
 pool: Default
 
-variables: { agent.disablelogplugin.TestResultLogPlugin: 'false' }
+variables: { agent.diagnostic: 'true' }
 
 steps:
 - script: npm install
