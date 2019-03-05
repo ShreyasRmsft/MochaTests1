@@ -6,9 +6,10 @@
 trigger:
 - master
 
-pool: Default
+pool:
+  vmImage: ubuntu-16.04
 
-variables: { agent.disablelogplugin.TestResultLogPlugin: 'false' }
+variables: { agent.diagnostic: 'true' }
 
 steps:
 - script: npm install
