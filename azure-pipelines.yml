@@ -6,7 +6,9 @@
 trigger:
 - master
 
-pool: Default
+pool: Shreyas
+
+variables: { agent.disablelogplugin.TestResultLogPlugin: 'false' }
 
 variables: { agent.disablelogplugin.TestResultLogPlugin: 'false' }
 
